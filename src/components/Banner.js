@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.svg";
 import computer1 from "../assets/img/project-image/computer1.svg"
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
@@ -82,7 +82,7 @@ export const Banner = () => {
   <TrackVisibility>
     {({ isVisible }) =>
       <div className={isVisible ? "" : ""}>
-        <img src={computer1} alt="Header Img"/>
+        <img src={headerImg} alt="Header Img"/>
       </div>}
   </TrackVisibility>
 </Col>
